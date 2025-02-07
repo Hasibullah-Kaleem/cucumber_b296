@@ -16,11 +16,11 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml",
         },
 
-        monochrome = true, //makes the console reports more readable..
+        monochrome = true, //makes the console reports more readable.
         features = "src/test/resources/features",
-        glue = {"stepdefinitions"},// glue is working for stepdefinitions, path of stepdefinitions
+        glue = {"stepdefinitions","hooks"},// glue is working for stepdefinitions, path of stepdefinitions
         dryRun = false,
-        tags = "@data_table"
+        tags = "@excel"
 
 
 
