@@ -1,4 +1,4 @@
-@search_scenario
+@search_scenario @e2e
 Feature: Search_Scenario_Outline
 
   Background: Navigate home page

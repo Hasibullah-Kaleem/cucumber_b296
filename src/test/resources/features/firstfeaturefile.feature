@@ -1,4 +1,5 @@
 
+@e2e
 Feature: Google_search_feature
 
   Scenario: TC_001_iphone_search

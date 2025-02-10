@@ -1,4 +1,4 @@
-@excel
+@excel  @e2e
 Feature: user_creation
 
   Scenario:  user_creation_test

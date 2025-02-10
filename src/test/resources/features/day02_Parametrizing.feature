@@ -1,7 +1,7 @@
 
 
 
-@parametrizing
+@parametrizing @e2e
 Feature: search_future
 
   Background: Navigate home page

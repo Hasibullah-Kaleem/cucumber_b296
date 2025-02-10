@@ -10,17 +10,19 @@ import org.junit.runner.RunWith;
 
         plugin = {
 
-                "pretty", //generates reports in the console....
+                "pretty", //generates reports in the console…
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
+                "rerun:target/failedRerun.txt",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
 
         monochrome = true, //makes the console reports more readable.
         features = "src/test/resources/features",
         glue = {"stepdefinitions","hooks"},// glue is working for stepdefinitions, path of stepdefinitions
         dryRun = false,
-        tags = "@excel"
+        tags = "@parametrizing"
 
 
 

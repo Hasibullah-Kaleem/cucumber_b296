@@ -1,5 +1,5 @@
 
-@dataFeature
+@dataFeature @e2e
 Feature: Data Tables Feature
 
 

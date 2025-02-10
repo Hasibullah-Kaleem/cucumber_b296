@@ -28,7 +28,7 @@ public class Hooks {
 
         System.out.println("Before hook executed...");
 
-        //We can add some credetentials to setup our test cases such as Api credentials, db credentials
+        //We can add some credentials to set up our test cases such as Api credentials, db credentials
     }
 
 
@@ -36,11 +36,11 @@ public class Hooks {
     @After
     public void tearDown(Scenario scenario) {
 
-        //We can add some methods to close driver and disconnect from Db.....
+        //We can add some methods to close the driver and disconnect from Db…
         //We can add screenshot methods that provide to attach into the Report.......
         System.out.println("After hooks everything closed.....");
 
-        //if the test cases/scenario fails , then we can capture the Screenshot and attacht into the report automatically
+        //if the test cases/scenario fails, then we can capture the Screenshot and attach into the report automatically
         if (scenario.isFailed()) {
 
             final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
